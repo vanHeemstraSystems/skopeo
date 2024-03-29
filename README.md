@@ -9,11 +9,11 @@ There is a tool called [Skopeo](https://github.com/containers/skopeo) which can 
 
 For example:
 
-- Download the image and save the layers as a tarball: skopeo copy docker://ubuntu docker-archive:/tmp/ubuntu.tar:ubuntu
+- Download the image and save the layers as a tarball: ```skopeo copy docker://ubuntu docker-archive:/tmp/ubuntu.tar:ubuntu```
 
-- Transfer /tmp/ubuntu.tar to another machine if desired.
+- Transfer ```/tmp/ubuntu.tar``` to another machine if desired.
 
-- Load the image on a Docker instance which does not have internet connection: docker load --input /tmp/ubuntu.tar
+- Load the image on a Docker instance which does not have internet connection: ```docker load --input /tmp/ubuntu.tar```
 
 It is available in CentOS 7 repo with the package name skopeo. There are no Debian or Ubuntu packages at this time (but it is easy to compile).
 
