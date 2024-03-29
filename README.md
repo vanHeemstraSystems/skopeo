@@ -1,7 +1,7 @@
-repository-name
-# Repository Name
+skopeo
+# Skopeo
 
-Based on "ABC" at https://www.abc.com/
+Based on "Skopeo" at https://github.com/containers/skopeo
 
 ## 100 - Introduction
 
